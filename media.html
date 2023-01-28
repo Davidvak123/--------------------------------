@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>העדלאידע - מדיה</title>
+    <link rel="icon" href="./styles/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  </head>
+  <body>
+    <header class="header-all">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./styles/logo.png" alt="logo"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">עמוד הבית</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">מידע על הפעילות</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./media.html">מדיה</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faq.html">שאלות נפוצות </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">יצירת קשר</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="media-page">
+      <h1>- תמונות - וידאו -</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center my-2"></div>
+        </div>
+        <div class="portfolio-menu mt-2 mb-4">
+          <ul>
+            <li class="btn btn-outline-dark active" data-filter="*">
+              כל התמונות
+            </li>
+            <li class="btn btn-outline-dark" data-filter=".gts">
+              בובות בכל הגדלים
+            </li>
+            <li class="btn btn-outline-dark" data-filter=".lap">
+              תהלוכה על גלגלים
+            </li>
+            <li class="btn btn-outline-dark text" data-filter=".selfie">
+              ליצנים
+            </li>
+          </ul>
+        </div>
+        <div class="portfolio-item row">
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.ligdol.co.il/Upload/adlo-cholon2018.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.ligdol.co.il/Upload/adlo-cholon2018.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://images1.calcalist.co.il/PicServer2/20122005/111736/halil_l.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://images1.calcalist.co.il/PicServer2/20122005/111736/halil_l.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.ligdol.co.il/Upload/%D7%A4%D7%95%D7%A8%D7%99%D7%9D%20%D7%91%D7%A0%D7%AA%D7%A0%D7%99%D7%94.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.ligdol.co.il/Upload/%D7%A4%D7%95%D7%A8%D7%99%D7%9D%20%D7%91%D7%A0%D7%AA%D7%A0%D7%99%D7%94.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://kinderland.co.il/tm-content/uploads/2021/12/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%97%D7%95%D7%9C%D7%95%D7%9F-2022-700x467.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://kinderland.co.il/tm-content/uploads/2021/12/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%97%D7%95%D7%9C%D7%95%D7%9F-2022-700x467.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.habama.co.il/Habama/Upload/other/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%97%D7%95%D7%9C%D7%95%D7%9F-01.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.habama.co.il/Habama/Upload/other/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%97%D7%95%D7%9C%D7%95%D7%9F-01.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://kinderland.co.il/tm-content/uploads/2019/03/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%A9%D7%93%D7%94-%D7%91%D7%95%D7%A7%D7%A8-2022.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://kinderland.co.il/tm-content/uploads/2019/03/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%A9%D7%93%D7%94-%D7%91%D7%95%D7%A7%D7%A8-2022.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.israelhayom.co.il/wp-content/uploads/2022/05/10/15195748407101_b-scaled.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.israelhayom.co.il/wp-content/uploads/2022/05/10/15195748407101_b-scaled.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/PikiWiki_Israel_12251_purim_festival_in_holon_2011.jpg/1200px-PikiWiki_Israel_12251_purim_festival_in_holon_2011.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/PikiWiki_Israel_12251_purim_festival_in_holon_2011.jpg/1200px-PikiWiki_Israel_12251_purim_festival_in_holon_2011.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://upload.wikimedia.org/wikipedia/commons/5/58/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA%21.JPG"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://upload.wikimedia.org/wikipedia/commons/5/58/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA%21.JPG"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://img.mako.co.il/2021/01/28/476516pic_Orig_autoOrient_c.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://img.mako.co.il/2021/01/28/476516pic_Orig_autoOrient_c.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA1.JPG/640px-%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA1.JPG"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA1.JPG/640px-%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA1.JPG"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA2.JPG/2448px-%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA2.JPG"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA2.JPG/2448px-%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2_%D7%A1%D7%91%D7%99%D7%91%D7%AA%D7%99%D7%AA2.JPG"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="http://www.ynet.co.il/PicServer2/02022009/1867896/IMG_0830_wa.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="http://www.ynet.co.il/PicServer2/02022009/1867896/IMG_0830_wa.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://kinderland.co.il/tm-content/uploads/2016/02/4271-sde-boker-2014.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://kinderland.co.il/tm-content/uploads/2016/02/4271-sde-boker-2014.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://purim.hagsameah.co.il/wp-content/uploads/2017/01/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%97%D7%95%D7%9C%D7%95%D7%9F-%D7%A4%D7%95%D7%A8%D7%99%D7%9D-2022.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://purim.hagsameah.co.il/wp-content/uploads/2017/01/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%97%D7%95%D7%9C%D7%95%D7%9F-%D7%A4%D7%95%D7%A8%D7%99%D7%9D-2022.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://images1.ynet.co.il/xnet//PicServer2/pic/032014/484019/9_36.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://images1.ynet.co.il/xnet//PicServer2/pic/032014/484019/9_36.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://raanana-city.co.il/wp-content/uploads/2020/02/stencil-2-min.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://raanana-city.co.il/wp-content/uploads/2020/02/stencil-2-min.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://images.wcdn.co.il/f_auto,q_auto,w_1200,t_54/3/3/6/1/3361018-46.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://images.wcdn.co.il/f_auto,q_auto,w_1200,t_54/3/3/6/1/3361018-46.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.masa.co.il/wp-content/uploads/2017/08/Benebrak_25.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.masa.co.il/wp-content/uploads/2017/08/Benebrak_25.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_380,w_500/697861"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_380,w_500/697861"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.hashikma-holon.co.il/wp-content/uploads/2018/02/%D7%94%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%A9%D7%9C-%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94-%D7%97%D7%95%D7%9C%D7%95%D7%9F-%D7%A2%D7%99%D7%A8-%D7%94%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%90%D7%9C%D7%99-%D7%A0%D7%90%D7%9E%D7%9F-1.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.hashikma-holon.co.il/wp-content/uploads/2018/02/%D7%94%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%A9%D7%9C-%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94-%D7%97%D7%95%D7%9C%D7%95%D7%9F-%D7%A2%D7%99%D7%A8-%D7%94%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%90%D7%9C%D7%99-%D7%A0%D7%90%D7%9E%D7%9F-1.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="http://www.photour.co.il/loadedFiles/dsc_1597.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="http://www.photour.co.il/loadedFiles/dsc_1597.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/PikiWiki_Israel_10870_Adloyada_-_Purim_parade.jpg/800px-PikiWiki_Israel_10870_Adloyada_-_Purim_parade.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/PikiWiki_Israel_10870_Adloyada_-_Purim_parade.jpg/800px-PikiWiki_Israel_10870_Adloyada_-_Purim_parade.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.tiuli.com/image/77ae97b4489c9ad95b397d53011d15a0.jpg?&width=1080&height=0"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.tiuli.com/image/77ae97b4489c9ad95b397d53011d15a0.jpg?&width=1080&height=0"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.tiuli.com/image/b4c298f4287f173f4f913fb4905e635f.jpg?&width=1080&height=0"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.tiuli.com/image/b4c298f4287f173f4f913fb4905e635f.jpg?&width=1080&height=0"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://img.mako.co.il/2016/03/23/327566_C.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://img.mako.co.il/2016/03/23/327566_C.jpg"
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.boomaka.com/wp-content/uploads/IMG_20210226_175015_966-scaled-e1615410678680.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.boomaka.com/wp-content/uploads/IMG_20210226_175015_966-scaled-e1615410678680.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.rsgd.co.il/wp-content/uploads/2019/01/DSCF0116.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.rsgd.co.il/wp-content/uploads/2019/01/DSCF0116.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://kinderland.co.il/tm-content/uploads/2019/03/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%A0%D7%AA%D7%A0%D7%99%D7%94.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://kinderland.co.il/tm-content/uploads/2019/03/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-%D7%A0%D7%AA%D7%A0%D7%99%D7%94.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://img.mako.co.il/2015/03/05/611193pic_C.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://img.mako.co.il/2015/03/05/611193pic_C.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNA4wHgbE6CRb0yXIauc2XwaiFW5GMflL5pAFCFVbvZmON8qGTmxbYMR8Y1835j-_WfY&usqp=CAU"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNA4wHgbE6CRb0yXIauc2XwaiFW5GMflL5pAFCFVbvZmON8qGTmxbYMR8Y1835j-_WfY&usqp=CAU"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNA4wHgbE6CRb0yXIauc2XwaiFW5GMflL5pAFCFVbvZmON8qGTmxbYMR8Y1835j-_WfY&usqp=CAU"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.srugim.co.il/wp-content/uploads/2019/03/%D7%A4%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%A8%D7%A6-640x427.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_220,w_320/709752"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_220,w_320/709752"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBJ2RCfqGuSlJSaxpwG6EM7mhCiaXZHoJ9OSNU8Wg8JF6sNmOprimK_UAMAH4woHtQS-Y&usqp=CAU"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBJ2RCfqGuSlJSaxpwG6EM7mhCiaXZHoJ9OSNU8Wg8JF6sNmOprimK_UAMAH4woHtQS-Y&usqp=CAU"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://kinderland.co.il/tm-content/uploads/2016/12/Screenshot_325.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://kinderland.co.il/tm-content/uploads/2016/12/Screenshot_325.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_628,w_1200/709073"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_628,w_1200/709073"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://www.netanyanet.co.il/images/pnay/events/purim1919.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://www.netanyanet.co.il/images/pnay/events/purim1919.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://img.mako.co.il/2017/03/10/472939_C.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://img.mako.co.il/2017/03/10/472939_C.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-6 col-sm">
+            <a
+              href="https://images1.ynet.co.il/PicServer5/2018/02/27/8374356/83743160991094640360no.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://images1.ynet.co.il/PicServer5/2018/02/27/8374356/83743160991094640360no.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://pic.yeshiva.org.il/SiteProjects/YeshivaModels/Handlers/InternalFiles.ashx?act=pictures&f=6562"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://pic.yeshiva.org.il/SiteProjects/YeshivaModels/Handlers/InternalFiles.ashx?act=pictures&f=6562"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+            <a
+              href="https://kinderland.co.il/tm-content/uploads/2019/03/%D7%A4%D7%95%D7%A8%D7%99%D7%9D-2019-%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D.jpg"
+              class="fancylight popup-btn"
+              data-fancybox-group="light"
+            >
+              <img
+                class="img-fluid"
+                src="https://kinderland.co.il/tm-content/uploads/2019/03/%D7%A4%D7%95%D7%A8%D7%99%D7%9D-2019-%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <script>
+        $(".portfolio-menu ul li").click(function () {
+          $(".portfolio-menu ul li").removeClass("active");
+          $(this).addClass("active");
+
+          var selector = $(this).attr("data-filter");
+          $(".portfolio-item").isotope({
+            filter: selector,
+          });
+          return false;
+        });
+        $(document).ready(function () {
+          var popup_btn = $(".popup-btn");
+          popup_btn.magnificPopup({
+            type: "image",
+            gallery: {
+              enabled: true,
+            },
+          });
+        });
+      </script>
+      <div class="media-video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/wlImZEzGdPM?start=22"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/EkIZwXbSh-Y?start=22"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/3tVTZSFqUpw?start=22"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/m_qJEQdsNBY?start=22"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </main>
+
+    <footer class="footer1">
+      <section>
+        <footer class="bg-secondary text-white text-center text-md-start">
+          <div>
+            <div class="row">
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">מידע נוסף</h5>
+
+                <p>
+                  אתר זה נבנה במסגרת פרויקט סיום מודל HTML-CSS-JS עדלאידע חולון.
+                </p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">ניווט</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./index.html" class="text-white"
+                      >לעמוד הבית - לחץ כאן</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./about.html" class="text-white"
+                      >למידע על הפעילות - לחץ כאן</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./media.html" class="text-white"
+                      >למדיה - לחץ כאן</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./faq.html" class="text-white"
+                      >לשאלות נפוצות - לחץ כאן</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./contact.html" class="text-white"
+                      >ליצרת קשר - לחץ כאן
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center p-3" style="background-color: #0d0d0d">
+            <p>נבנה ע"י דוד וקנין © 2023</p>
+          </div>
+        </footer>
+      </section>
+    </footer>
+  </body>
+</html>

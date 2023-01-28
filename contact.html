@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>העדלאידע - יצירת קשר</title>
+    <link rel="icon" href="./styles/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header-all">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./styles/logo.png" alt="logo"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">עמוד הבית</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">מידע על הפעילות</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./media.html">מדיה</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faq.html">שאלות נפוצות </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">יצירת קשר</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="contact-page">
+      <div class="full-contact">
+        <section class="mb-4">
+          <h2 class="h1-responsive font-weight-bold text-center my-4">
+            צור קשר
+          </h2>
+
+          <p class="text-center w-responsive mx-auto mb-5">
+            יש לך שאלה ? בבקשה צור איתנו קשר ונחזור אליך בהקדם.
+          </p>
+
+          <div class="row">
+            <div class="col-md-9 mb-md-0 mb-5">
+              <form
+                id="contact-form"
+                name="contact-form"
+                action="mail.php"
+                method="POST"
+              >
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="שם פרטי"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        name="last-name"
+                        class="form-control"
+                        placeholder="שם משפחה"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        class="form-control"
+                        placeholder="כתובת אימייל"
+                      />
+                      <label for="email" class=""></label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form">
+                      <textarea
+                        type="text"
+                        id="message"
+                        name="message"
+                        rows="2"
+                        class="form-control md-textarea"
+                        placeholder="תוכן ההודעה"
+                      ></textarea>
+                      <label for="message"></label>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+              <div class="text-center text-md-left">
+                <a
+                  class="btn btn-primary"
+                  onclick="document.getElementById('contact-form').submit();"
+                  >שלח</a
+                >
+              </div>
+              <div class="status"></div>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>עיריית חולון, ויצמן 58 , ישראל</p>
+                </li>
+
+                <li>
+                  <i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>טל' 03-5027222</p>
+                  <p>פקס 03-6511851​</p>
+                </li>
+
+                <li>
+                  <i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>contact@holon.co.il</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer1">
+      <section>
+        <footer class="bg-secondary text-white text-center text-md-start">
+          <div>
+            <div class="row">
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">מידע נוסף</h5>
+
+                <p>
+                  אתר זה נבנה במסגרת פרויקט סיום מודל HTML-CSS-JS עדלאידע חולון.
+                </p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">ניווט</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./index.html" class="text-white"
+                      >לעמוד הבית - לחץ כאן</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./about.html" class="text-white"
+                      >למידע על הפעילות - לחץ כאן</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./media.html" class="text-white"
+                      >למדיה - לחץ כאן</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./faq.html" class="text-white"
+                      >לשאלות נפוצות - לחץ כאן</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./contact.html" class="text-white"
+                      >ליצרת קשר - לחץ כאן
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center p-3" style="background-color: #0d0d0d">
+            <p>נבנה ע"י דוד וקנין © 2023</p>
+          </div>
+        </footer>
+      </section>
+    </footer>
+  </body>
+</html>
